@@ -112,11 +112,13 @@ cout << &y << " " << y << endl; \\ 0x7ffc05c4e3ac 5
 ```
 ---
 # Как хранятся массивы
+
 <style scoped>
     pre {
         font-size: 39px;
     }
 </style>
+
 ``` c++
 int main() {
     int n = 5;
@@ -154,18 +156,23 @@ delete [] array;
 ```
 ---
 # Как хранятся списки
+
 Односвязный список
+
 $$
 \fbox{val}\fbox{url} \rightarrow 
 \fbox{val}\fbox{url} \rightarrow 
 \fbox{val}\fbox{null}
 $$
+
 Двусвязный список
+
 $$
 \fbox{null}\fbox{val}\fbox{url} \leftrightarrow 
 \fbox{url}\fbox{val}\fbox{url} \leftrightarrow 
 \fbox{url}\fbox{val}\fbox{null}
 $$
+
 ---
 # Пример односвязного списка
 ``` py
@@ -214,7 +221,7 @@ True
 ```
 ---
 # Побитовые операции
-$11 \& 7 = x_1$
+$11 \land 7 = x_1$
 $11 | 7 = x_2$
 $11\ xor\ 7 = x_3$
 $15\oplus16 = x_4$
@@ -222,7 +229,7 @@ $15\oplus16 = x_4$
 ---
 # Побитовые операции
 
-$11 \& 7 = 3$
+$11 \land 7 = 3$
 $11 | 7 = 15$
 $11\ xor\ 7 = 10$
 $15\oplus16 = 0$
