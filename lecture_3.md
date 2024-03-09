@@ -22,31 +22,37 @@ header:  Bulat Zaripov, Semkov Stepan
 ---
 # Вопросы, которые нужно обсудить
 
+- Как настроение?
 - Все ли расписались за технику безопасности?
 - Как домашка?
 - Что было сложно решить?
 
 ---
-# Что такое стек?
+# Что такое стек? :rocket:
+
+LIFO - last in first out
 
 ---
-# Что такое очередь?
+# Что такое очередь? :smirk:
+FIFO - first in first out
 
 ---
-# Что такое дек?
+# Что такое дек? :smirk_cat:
+
+дек(deque - double ended queue)
 
 ---
-# Сравнение сложностей
+# Сравнение сложностей :house:
 
 ---
-# Как их писать на плюсах?
+# Как их писать на плюсах? :book:
 
 ---
-# Как их писать на питоне?
+# Как их писать на питоне? :red_square:
 
 
 ---
-# Обзор Standard Template Library
+# Обзор Standard Template Library :green_circle:
 
 ---
 # Обзор Python Standard Library
